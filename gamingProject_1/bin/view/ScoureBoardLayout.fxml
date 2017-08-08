@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane dividerPositions="0.29797979797979796" layoutX="-1.0" layoutY="28.0" prefHeight="415.0" prefWidth="757.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="336.0" prefWidth="193.0">
+               <children>
+                  <Label fx:id="aboutLabel" alignment="CENTER" layoutX="-1.0" layoutY="-1.0" prefHeight="25.0" prefWidth="222.0" styleClass="Label" stylesheets="@application.css" text="About Player" textFill="#ebe5e5" AnchorPane.bottomAnchor="396.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="-1.0">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="350.0" prefWidth="472.0">
+               <children>
+                  <Label fx:id="scoureLabel" alignment="CENTER" layoutX="1.0" layoutY="13.0" prefHeight="25.0" prefWidth="527.0" styleClass="Label" stylesheets="@application.css" text="&quot;It's All About Core Knowledge...&quot;" textFill="#f2e9e9" AnchorPane.bottomAnchor="382.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="13.0">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+      <Button layoutX="657.0" layoutY="397.0" mnemonicParsing="false" text="Next Level-&gt;" textFill="#088d20">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutY="397.0" mnemonicParsing="false" prefWidth="106.0" text="How To Play..." textFill="#610c04">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

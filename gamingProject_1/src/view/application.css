@@ -1,0 +1,111 @@
+
+													/*Buttons CSS design */
+
+.button#choiceColor {
+	-fx-background-color: rgb(128,128,128);
+}
+
+.button#help {
+	-fx-background-color: rgb(128,128,128);
+}
+
+.button#elementShapes{
+	-fx-background-color:rgb(128,128,128);
+}
+
+.button#game1{
+	-fx-background-color: rgb(255,128,64); 
+}
+.button#game2{
+	-fx-background-color: rgb(255,128,64); 
+}
+.button#game3{
+	-fx-background-color: rgb(255,128,64); 
+	
+}
+.button#A{
+	-fx-background-image: url('s1.PNG'); 
+}
+.button#B{
+	-fx-background-image: url('s2.PNG'); 
+}
+.button#C{
+	-fx-background-image: url('s3.PNG'); 
+}
+.button#D{
+	-fx-background-image: url('s4.PNG'); 
+}
+.button#E{
+	-fx-background-image: url('s5.PNG'); 
+}
+.button#F{
+	-fx-background-image: url('s6.PNG'); 
+}
+.button#G{
+	-fx-background-image: url('s7.PNG'); 
+}
+.button#H{
+	-fx-background-image: url('s8.PNG'); 
+}
+.button#I{
+	-fx-background-image: url('s9.PNG'); 
+}
+.button#J{
+	-fx-background-image: url('s10.PNG'); 
+}
+.button#K{
+	-fx-background-image: url('s11.PNG'); 
+}
+												/*AnchorePane CSS design */
+
+.AnchorPane#helpPane{
+	-fx-background-color: rgb(255,128,128);
+}
+
+.AnchorPane#gameOptions{
+	-fx-background-color: rgb(0,0,0);
+}
+
+												/*Pane CSS Design */
+.Pane#midPane{
+	-fx-background-color: rgb(0,0,0);
+}											
+												
+
+
+
+
+												/*Labels CSS design */
+												
+.Label#footer{
+	-fx-background-color:rgb(128,128,0);
+}												
+
+.Label#header{
+	-fx-background-color:rgb(128,128,0);
+}
+
+.Label#bar{
+	-fx-background-color:rgb(255,128,128);
+}
+
+.Label#bar1{
+	-fx-background-color:rgb(255,128,128);
+}
+
+.Label#playLabel1{
+	-fx-background-color:rgb(128,128,128);
+}
+.Label#inspiralWords{
+	-fx-background-color:rgb(128,128,128);
+}
+
+.Label#aboutLabel{
+	-fx-background-color: rgb(0,0,0);
+}
+.Label#scoureLabel{
+	-fx-background-color: rgb(0,0,0);
+}
+.Label#gOpLabel{
+	-fx-background-color:rgb(128,128,128);
+}

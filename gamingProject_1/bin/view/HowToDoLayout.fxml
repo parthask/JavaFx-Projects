@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="address.HowToDoControl">
+   <children>
+      <Button fx:id="nextHints" layoutX="630.0" layoutY="374.0" mnemonicParsing="false" onAction="#nextHintShow" text="Next Hints~&gt;" textFill="#0f9e29">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="goToMain" layoutX="1.0" layoutY="374.0" mnemonicParsing="false" onAction="#goToMainPage" text="&lt;~GoTo Main" textFill="#bf092d">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Label fx:id="keyHints" layoutX="274.0" layoutY="353.0" text="Key Hints To Be Display..." textFill="#0ab538">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <ProgressBar fx:id="hintsProgress" layoutX="157.0" layoutY="381.0" onKeyPressed="#showProgress" prefHeight="18.0" prefWidth="444.0" progress="0.0" />
+      <Label fx:id="intro" layoutX="265.0" layoutY="4.0" text="Light GaMe Is Easy To Play..." textFill="#229009">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Pane fx:id="toDoPane" layoutX="11.0" layoutY="24.0" prefHeight="323.0" prefWidth="737.0" />
+   </children>
+</AnchorPane>
